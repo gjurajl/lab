@@ -18,8 +18,7 @@ pygame.draw.rect(screen, wcolor, pygame.Rect((0,0),(WIDTH,BORDER)) )
 pygame.draw.rect(screen, wcolor, pygame.Rect((0,0),(BORDER,HEIGHT)) )
 #bottom wall
 pygame.draw.rect(screen, wcolor, pygame.Rect((20,460),(780,20)) )
-# pygame.draw.rect(screen, wcolor, pygame.Rect(?) )
-
+screen.fill((255,0,0))
 pygame.display.update()
 
 
