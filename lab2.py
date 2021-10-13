@@ -6,6 +6,7 @@ pygame.display.set_caption("Lab2")
 WIDTH = 800
 HEIGHT = 480
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
+screen.fill((255,0,0))
 pygame.display.update()
 
 #WALLS
@@ -18,7 +19,8 @@ pygame.draw.rect(screen, wcolor, pygame.Rect((0,0),(WIDTH,BORDER)) )
 pygame.draw.rect(screen, wcolor, pygame.Rect((0,0),(BORDER,HEIGHT)) )
 #bottom wall
 pygame.draw.rect(screen, wcolor, pygame.Rect((20,460),(780,20)) )
-screen.fill((255,0,0))
+# pygame.draw.rect(screen, wcolor, pygame.Rect(?) )
+
 pygame.display.update()
 
 
