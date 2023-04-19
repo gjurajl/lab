@@ -1,1 +1,1 @@
-# Simple ping-pong game made with python
+# Experimentation with python library to make 2d objects.
