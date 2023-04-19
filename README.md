@@ -1,1 +1,1 @@
-# Experimentation with python library to make 2d objects.
+# Experimentation with python to make 2d objects.
